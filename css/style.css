@@ -21,7 +21,7 @@ header {
     height: 100px;
     font-size: 400%;
     text-align: center;
-    font-family: 'Faster One', cursive;
+     font-family: 'Faster One', cursive;     
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -198,18 +198,18 @@ body, html {
     width: 25%;
     height: 100%;
     float: left;
- background-color: red, orange, yellow;
-    background: linear-gradient(to bottom right, orange, yellow, red, orange, yellow, red, orange, yellow, red, orange, yellow, red);
-    border-collapse: collapse;
+    background-color: purple;
+    background: radial-gradient(circle, pink, white, purple);
+      border-collapse: collapse;
 }
 
 .middlepane {
     width: 50%;
     height: 100%;
     float: left;
- background-color: red, orange, yellow;
-    background: linear-gradient(to bottom right, orange, yellow, red, orange, yellow, red, orange, yellow, red, orange, yellow, red);
-    border-collapse: collapse;
+    background-color: white;
+    background: radial-gradient(circle, pink, pink, white, white);
+     border-collapse: collapse;
 }
 
 .rightpane {
@@ -217,8 +217,8 @@ body, html {
   height: 100%;
   position: relative;
   float: right;
-  background-color: red, orange, yellow;
-    background: linear-gradient(to bottom right, orange, yellow, red, orange, yellow, red, orange, yellow, red, orange, yellow, red);
+  background-color: purple;
+  background: radial-gradient(circle, pink, white, purple);
   border-collapse: collapse;
 }
 
@@ -227,6 +227,6 @@ body, html {
   height: 100px;
   border-collapse: collapse;
   background-color: purple;
-    background: radial-gradient(circle, purple, white, pink, purple, pink, white, purple);
+    background: radial-gradient(circle, pink, white, purple);
 }
 
